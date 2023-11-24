@@ -3,14 +3,13 @@ from setuptools import setup
 setup(
     name='clean_folder',
     version='1.0',
-    description='Пarbage sorting machine',
+    description='Garbage sorting machine',
     url='http://github.com/ArleKinG44/dz_7',
     author='ArleKinG',
     author_email='denpolet@gmail.com',
     license='MIT',
-    packages=['wrapper'],
+    packages=['clean_folder'],
     install_requires=[],
     long_description="Some long desctiption",
-    long_description_content_type="text/x-rst",
-    entry_points={},
+    long_description_content_type="text/x-rst"
 )
