@@ -11,5 +11,10 @@ setup(
     packages=['clean_folder'],
     install_requires=[],
     long_description="Some long desctiption",
-    long_description_content_type="text/x-rst"
+    long_description_content_type="text/x-rst",
+    entry_points={
+        'console_scripts': [
+            'clean-folder = clean_folder.clean:main',
+        ],
+    },
 )
